@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containor{
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6px;
+    padding-top: 6px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    width: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 40px;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    width: 40px;
+    
+}
+.row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.col1, .col2{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.col1{
+    padding-left: 8%;
+}
+.col2{
+    
+    padding-top: 65px;
+    width: 100%;
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
+p{
+    color: white;
+}
+button{
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+button a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.row-1{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.firstimage{
+    height: 300px;
+    border-radius: 15px;
+    caption-side: top;
+}
+.secondimage{
+    height: 300px;
+    border-radius: 15px;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-between;
+}
+.thirdimage{
+    height: 300px;
+    border-radius: 15px;
+}
+.fourthimage{
+    height: 300px;
+    border-radius: 15px;
+}
